@@ -19,11 +19,11 @@ public class Prueba : MonoBehaviour
 
         if (dia < 3)
         {
-            Debug.Log("La cantidad de dias debera ser mayor a tres");
+            Debug.Log("Error, la cantidad de dias debera ser mayor a tres");
         }
         if (codigo != "G" && codigo != "PP" && codigo != "PG")
         {
-            Debug.Log("El codigo ingresado no es valido");
+            Debug.Log("Error, el codigo ingresado no es valido");
         }
         else if (codigo == "G")
         {
